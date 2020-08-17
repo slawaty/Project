@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "677909722059",
+    "firebase_url": "https://testfirebase-a78d2.firebaseio.com",
+    "project_id": "testfirebase-a78d2",
+    "storage_bucket": "testfirebase-a78d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:677909722059:android:5c6b526e99772743f7fc4e",
+        "android_client_info": {
+          "package_name": "com.toastguyz.flutter_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "677909722059-0rko9qpjspa3trqlrd8gjjshdfa1hc1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS0MEqAh9P8o5UbBO-TaIWlDdZThm2T-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "677909722059-0rko9qpjspa3trqlrd8gjjshdfa1hc1g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
