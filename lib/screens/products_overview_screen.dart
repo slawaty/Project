@@ -56,32 +56,32 @@ class _ProductsOverviewScreenState extends State<ProductsOverviewScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('MyShop'),
+        title: Text('Green Market Product'),
         actions: <Widget>[
-          PopupMenuButton(
-            onSelected: (FilterOptions selectedValue) {
-              setState(() {
-                if (FilterOptions.Favourites == selectedValue) {
-                  _showOnlyFavourites = true;
-                } else {
-                  _showOnlyFavourites = false;
-                }
-              });
-            },
-            icon: Icon(Icons.more_vert),
-            itemBuilder: (BuildContext context) {
-              return [
-                PopupMenuItem(
-                  child: Text("Only Favourites"),
-                  value: FilterOptions.Favourites,
-                ),
-                PopupMenuItem(
-                  child: Text("Select All"),
-                  value: FilterOptions.All,
-                ),
-              ];
-            },
-          ),
+          // PopupMenuButton(
+          //   onSelected: (FilterOptions selectedValue) {
+          //     setState(() {
+          //       if (FilterOptions.Favourites == selectedValue) {
+          //         _showOnlyFavourites = true;
+          //       } else {
+          //         _showOnlyFavourites = false;
+          //       }
+          //     });
+          //   },
+          //   icon: Icon(Icons.more_vert),
+          //   itemBuilder: (BuildContext context) {
+          //     return [
+          //       // PopupMenuItem(
+          //       //   child: Text("Only Favourites"),
+          //       //   value: FilterOptions.Favourites,
+          //       // ),
+          //       PopupMenuItem(
+          //         child: Text("Select All"),
+          //         value: FilterOptions.All,
+          //       ),
+          //     ];
+          //   },
+          // ),
           Consumer<Cart>(
             builder: (BuildContext context, Cart cart, Widget widget) {
               return Badge(

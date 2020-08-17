@@ -36,19 +36,19 @@ class ProductItem extends StatelessWidget {
         ),
         footer: GridTileBar(
           backgroundColor: Colors.black87,
-          leading: Consumer<Product>(
-            builder: (BuildContext context, Product product, Widget child) {
-              return IconButton(
-                icon: Icon(product.isFavorite
-                    ? Icons.favorite
-                    : Icons.favorite_border),
-                color: Theme.of(context).accentColor,
-                onPressed: () {
-                  product.toggleFavouriteStatus(authData.token, authData.userId);
-                },
-              );
-            },
-          ),
+          // leading: Consumer<Product>(
+          //   builder: (BuildContext context, Product product, Widget child) {
+          //     return IconButton(
+          //       icon: Icon(product.isFavorite
+          //           ? Icons.favorite
+          //           : Icons.favorite_border),
+          //       color: Theme.of(context).accentColor,
+          //       onPressed: () {
+          //         product.toggleFavouriteStatus(authData.token, authData.userId);
+          //       },
+          //     );
+          //   },
+          // ),
           title: Text(
             product.title,
             textAlign: TextAlign.center,

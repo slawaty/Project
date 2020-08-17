@@ -1,4 +1,4 @@
-#Mon Aug 17 11:54:01 ICT 2020
+#Mon Aug 17 14:43:03 ICT 2020
 base.0=C\:\\Users\\slawat\\Downloads\\flutter-ecommerce-master2\\build\\app\\intermediates\\transforms\\dexMerger\\debug\\0
 path.0=classes.dex
 renamed.0=classes.dex
